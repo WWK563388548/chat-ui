@@ -1,0 +1,7 @@
+.row-element {
+    display: flex;
+}
+
+.row-element > * {
+    margin: 8px;
+}
