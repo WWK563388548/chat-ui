@@ -4,7 +4,7 @@ import Image from '../../assets/images/image.png';
 import '../../story.css';
 
 export default {
-  title: 'Avatar',
+  title: 'Basic UI/Avatar',
   component: Avatar,
 }
 
