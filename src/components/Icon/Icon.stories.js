@@ -1,7 +1,6 @@
 import React from 'react';
 import Icon from '.';
 import SmileIconSvg from '../../assets/icons/smile.svg';
-import '../../story.css';
 
 export default {
   title: 'Basic UI/Icon',

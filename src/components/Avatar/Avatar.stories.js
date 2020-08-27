@@ -1,7 +1,6 @@
 import React from 'react';
 import Avatar from '.';
 import Image from '../../assets/images/image.png';
-import '../../story.css';
 
 export default {
   title: 'Basic UI/Avatar',
