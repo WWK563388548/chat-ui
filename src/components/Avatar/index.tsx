@@ -8,9 +8,9 @@ import {
 
 interface Props {
   imageSrc: string
-  size: string
+  size?: string
   status: string
-  statusIconSize: string
+  statusIconSize?: string
 }
 
 const Avatar: React.SFC<Props> = ({ imageSrc, size = '48px', status, statusIconSize = '8px' }) => {
