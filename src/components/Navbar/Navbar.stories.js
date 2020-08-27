@@ -14,7 +14,7 @@ const Container = styled.div`
 `;
 
 export const Default = () => {
-  return <Navbar>Navbar</Navbar>;
+  return <Navbar />;
 }
 
 export const Menu = () => {
