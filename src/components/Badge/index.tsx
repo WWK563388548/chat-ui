@@ -2,10 +2,10 @@ import React from 'react';
 import { BadgeWrapper, Count } from './style'; 
 
 interface Props {
-  children: React.ReactNode[] | []
+  children?: React.ReactChild
   show: boolean
-  count: number
-  showZero: boolean
+  count?: number
+  showZero?: boolean
 }
 
 const Badge: React.SFC<Props> = ({ children, show = false, count = 0, showZero = false }) => {
