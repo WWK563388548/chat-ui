@@ -1,5 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
+import Icon from './components/Icon/index.tsx';
+import { ReactComponent as SmileIconSvg } from './assets/icons/smile.svg';
 import './App.css';
 
 function App() {
@@ -10,6 +12,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <Icon IconComponent={SmileIconSvg} width={72} height={72}/>
         <a
           className="App-link"
           href="https://reactjs.org"
