@@ -1,15 +1,5 @@
-import styled, { css } from 'styled-components';
-
-// 使用styled-components的css属性去复用一段css代码
-const circleMixin = (color, size = '8px') => css`
-  content: ''; /* ::before/after中设置content后才能显示 */
-  display: block;
-  position: absolute;
-  width: ${size};
-  height: ${size};
-  border-radius: 50%;
-  background: ${color};
-`;
+import styled from 'styled-components';
+import { circleMixin } from '../../utils/mixins';
 
 export const AvatarContainer = styled.div`
   position: relative;
@@ -22,12 +12,18 @@ export const StatusIcon = styled.div<{ status: string, statusIconSize: string }>
 
   /* 外部大圆圈 */
   &::before {
+    content: ''; /* ::before/after中设置content后才能显示 */
+    display: block;
+    position: absolute;
     ${({ statusIconSize }) => circleMixin('#fff', statusIconSize)}
     transform: scale(2); /* 放大两倍 */
   }
   
   /* 内部小圆圈 */
   &::after {
+    content: ''; /* ::before/after中设置content后才能显示 */
+    display: block;
+    position: absolute;
     ${({ theme, status, statusIconSize }) => {
       if(status === 'online'){
         return circleMixin(theme.green, statusIconSize)
