@@ -31,7 +31,7 @@ export const StatusIcon = styled.div<{ status: string, statusIconSize: string }>
     ${({ theme, status, statusIconSize }) => {
       if(status === 'online'){
         return circleMixin(theme.green, statusIconSize)
-      } else if(status === 'offline') {
+      } else {
         return circleMixin(theme.gray, statusIconSize)
       }
     }}
