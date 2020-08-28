@@ -47,9 +47,6 @@ export const NavbarContainer = styled.nav`
 export const MenuItemsWrapper = styled.div`
   display: grid;
   grid-template-rows: repeat(5, minmax(auto, 88px)) 1fr;
-  div:last-child {
-    align-self: end;
-  }
 `;
 
 
