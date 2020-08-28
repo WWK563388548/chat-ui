@@ -10,4 +10,10 @@ export default {
 
   normal: '1.4rem', // 14px
   medium: '1.6rem', // 16px
+  large: '1.8rem', // 18px
+  xlarge: '2rem', // 20px
+  xxlarge: '2.4rem', // 24px
+  small: '1.2rem', // 12px
+  xsmall: '1rem', // 10px
+  xxsmall: '0.8rem', // 8px
 }
