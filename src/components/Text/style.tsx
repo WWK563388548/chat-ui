@@ -44,7 +44,7 @@ const sizeVariants = {
 type Type = 'primary' | 'secondary' | 'danger';
 type Size = 'large' | 'xlarge' | 'xxlarge' | 'small' | 'xsmall' | 'xxsmall' | 'normal' | 'medium';
 
-export const TextContainer = styled.div<{ size: Size, type: Type, bold: boolean }>`
+export const TextContainer = styled.span<{ size: Size, type: Type, bold: boolean }>`
   font-size: ${({ size }) => sizeVariants[size] || sizeVariants.normal};
   ${({ type }) => typeVariants[type]};
   ${({ bold }) => bold && `font-weight: 500`};
