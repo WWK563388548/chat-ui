@@ -3,8 +3,8 @@ import React from 'react';
 import { ParagraphContainer } from './style';
 
 interface Props {
-  children: any
-  ellipsis: boolean
+  children?: any
+  ellipsis?: boolean
   type?: 'primary' | 'secondary' | 'danger'
   size?: 'large' | 'xlarge' | 'xxlarge' | 'small' | 'xsmall' | 'xxsmall' | 'normal' | 'medium'
 }

@@ -4,8 +4,8 @@ import React from 'react';
 import { TextContainer } from './style';
 
 interface TextProps {
-  children: any
-  type: 'primary' | 'secondary' | 'danger'
+  children?: any
+  type?: 'primary' | 'secondary' | 'danger'
   size?: 'large' | 'xlarge' | 'xxlarge' | 'small' | 'xsmall' | 'xxsmall' | 'normal' | 'medium'
   bold?: boolean
 }
