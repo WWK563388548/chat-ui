@@ -8,7 +8,8 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import SmileIconSvg from '../../assets/icons/smile.svg';
+import { ReactComponent as SmileIconSvg } from '../../assets/icons/smile.svg';
+// import SmileIconSvg from '../../assets/icons/smile.svg';
 
 /**
  * fontawesome 图标库安装命令
