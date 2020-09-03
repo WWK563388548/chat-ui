@@ -5,8 +5,8 @@ import { ParagraphContainer } from './style';
 interface Props {
   children: any
   ellipsis: boolean
-  type: 'primary' | 'secondary' | 'danger'
-  size: 'large' | 'xlarge' | 'xxlarge' | 'small' | 'xsmall' | 'xxsmall' | 'normal' | 'medium'
+  type?: 'primary' | 'secondary' | 'danger'
+  size?: 'large' | 'xlarge' | 'xxlarge' | 'small' | 'xsmall' | 'xxsmall' | 'normal' | 'medium'
 }
 
 const Paragraph: React.SFC<Props> = ({ children, ellipsis, ...rest }) => {

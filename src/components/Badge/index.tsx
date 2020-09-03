@@ -3,7 +3,7 @@ import { BadgeWrapper, Count } from './style';
 
 interface Props {
   children?: React.ReactChild
-  show: boolean | undefined
+  show?: boolean | undefined
   count?: number
   showZero?: boolean
 }

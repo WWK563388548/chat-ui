@@ -1,3 +1,4 @@
+// @ts-nocheck
 // This Text component is for showing inline content
 import React from 'react';
 import { TextContainer } from './style';
