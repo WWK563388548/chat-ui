@@ -14,7 +14,20 @@ import { faReply } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useTheme } from 'styled-components';
 
-const MessageCard = ({ 
+interface Props {
+  avatarSrc: string
+  avatarStatus: string
+  statusText: string
+  name: string
+  time: string
+  message: string
+  unreadCount: number
+  active?: boolean
+  replied?: boolean
+  children?: any;
+}
+
+const MessageCard: React.SFC<Props> = ({ 
   avatarSrc,
   avatarStatus,
   statusText,
