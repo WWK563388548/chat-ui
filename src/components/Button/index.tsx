@@ -9,7 +9,7 @@ interface Props {
   bgColor?: string
 }
 
-const Heading: React.SFC<Props> = ({ children, buttonType = 'primary', shape = 'circle', size = '30px', bgColor }) => {
+const Button: React.SFC<Props> = ({ children, buttonType = 'primary', shape = 'circle', size = '30px', bgColor }) => {
   return (
     <ButtonContainer 
       buttonType={buttonType}
@@ -22,4 +22,4 @@ const Heading: React.SFC<Props> = ({ children, buttonType = 'primary', shape = '
   );
 }
 
-export default Heading;
+export default Button;
