@@ -5,7 +5,7 @@ import { TextContainer } from './style';
 
 interface TextProps {
   children?: any
-  type?: 'primary' | 'secondary' | 'danger'
+  type?: 'primary' | 'secondary' | 'danger' | 'white'
   size?: 'large' | 'xlarge' | 'xxlarge' | 'small' | 'xsmall' | 'xxsmall' | 'normal' | 'medium'
   bold?: boolean
 }

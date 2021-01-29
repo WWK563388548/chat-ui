@@ -12,6 +12,9 @@ const typeVariants = {
   danger: css`
     color: ${({ theme }) => theme.red};
   `,
+  white: css`
+    color: ${({ theme }) => theme.white};
+  `,
 };
 
 const sizeVariants = {
@@ -41,7 +44,7 @@ const sizeVariants = {
   `,
 };
 
-type Type = 'primary' | 'secondary' | 'danger';
+type Type = 'primary' | 'secondary' | 'danger' | 'white';
 type Size = 'large' | 'xlarge' | 'xxlarge' | 'small' | 'xsmall' | 'xxsmall' | 'normal' | 'medium';
 
 export const TextContainer = styled.span<{ size: Size, type: Type, bold: boolean }>`
