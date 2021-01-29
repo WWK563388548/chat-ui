@@ -11,9 +11,8 @@ export const Time = styled(Paragraph).attrs({ type: 'secondary', size: 'small' }
 
 export const BubbleTip = styled(Icon)`
   position: absolute;
-  bottom: -15%;
+  bottom: -35%;
   left: 0;
-
   z-index: 5;
 `;
 

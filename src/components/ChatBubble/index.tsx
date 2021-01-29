@@ -8,7 +8,7 @@ const ChatBubble = ({ children, type, time, ...rest }) => {
   return (
     <ChatBubbleWrapper type={type} {...rest}>
       <Bubble>
-        {/* <BubbleTip icon={BubbleTipIcon} width={40} height={28} color="white" /> */}
+        <BubbleTip IconComponent={BubbleTipIcon} width={40} height={28} color="white" />
         <MessageText className='message-text' type={type === 'mine' ? 'white' : 'primary'}>{ children }</MessageText>
       </Bubble>
       <Time>{time}</Time>
