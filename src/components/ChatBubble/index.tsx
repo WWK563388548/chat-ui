@@ -3,7 +3,7 @@ import React from 'react';
 import { ChatBubbleWrapper, Bubble, BubbleTip, MessageText, Time } from './style';
 import { ReactComponent as BubbleTipIcon } from '../../assets/icons/bubbleTip.svg';
 
-// TODO: fix icon problem
+
 const ChatBubble = ({ children, type, time, bubbleTipPosition, ...rest }) => {
   return (
     <ChatBubbleWrapper type={type} {...rest}>
@@ -15,6 +15,5 @@ const ChatBubble = ({ children, type, time, bubbleTipPosition, ...rest }) => {
     </ChatBubbleWrapper>
   );
 }
-
 
 export default ChatBubble;
