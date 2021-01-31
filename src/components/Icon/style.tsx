@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const IconContainer = styled.div<{ color: string, opacity: number }>`
+export const IconContainer = styled.div<{ color: string, opacity?: number }>`
   display: inline-flex;
   align-items: center;
   justify-content: center;

@@ -35,7 +35,7 @@ export const CustomColor = () => {
 
 // TODO: fix bug that is can not change path size
 export const CustomSize = () => {
-  return <Icon IconComponent={SmileIconSvg} width={48} height={48} color='#cccccc' />;
+  return <Icon IconComponent={SmileIconSvg} width={24} height={24} color='#cccccc' />;
 }
 
 export const CustomOpacity = () => {
