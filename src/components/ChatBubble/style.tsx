@@ -9,9 +9,9 @@ export const Time = styled(Paragraph).attrs({ type: 'secondary', size: 'small' }
   word-spacing: 1rem;
 `;
 
-export const BubbleTip = styled(Icon)`
+export const BubbleTip = styled(Icon)<{ bubbleTipPosition?: string }>`
   position: absolute;
-  bottom: -35%;
+  bottom:  ${({ bubbleTipPosition }) => bubbleTipPosition || '-35%'};
   left: 0;
   z-index: 5;
 `;
