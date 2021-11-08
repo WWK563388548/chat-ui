@@ -1,9 +1,9 @@
 import React from 'react';
-import { 
+import {
   AvatarContainer,
   StatusIcon,
   AvatarClip,
-  AvatarImage 
+  AvatarImage
 } from './style';
 
 interface Props {
@@ -13,7 +13,7 @@ interface Props {
   statusIconSize?: string
 }
 
-const Avatar: React.SFC<Props> = ({ imageSrc, size = '48px', status, statusIconSize = '8px' }) => {
+const Avatar: React.FC<Props> = ({ imageSrc, size = '48px', status, statusIconSize = '8px' }) => {
   return (
     <AvatarContainer>
       { status && <StatusIcon status={status} statusIconSize={statusIconSize} />}

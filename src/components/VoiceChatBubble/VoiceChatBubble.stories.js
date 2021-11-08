@@ -11,13 +11,13 @@ export default {
 export const Default = () => <VoiceChatBubble time="01:25" />;
 
 export const FromOthers = () => (
-  <ChatBubble bubbleTipPosition='-20%' time="yesterday 14：26 PM">
+  <ChatBubble bubbleTipPosition='-20%' time="yesterday 14:26 PM">
     <VoiceChatBubble time="01:25" />
   </ChatBubble>
 );
 
 export const Mine = () => (
-  <ChatBubble bubbleTipPosition='-20%' type="mine" time="yesterday 16：30 PM">
+  <ChatBubble bubbleTipPosition='-20%' type="mine" time="yesterday 16:30 PM">
     <VoiceChatBubble type='mine' time="02:25" />
   </ChatBubble>
 );

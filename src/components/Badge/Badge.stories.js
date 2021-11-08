@@ -15,7 +15,7 @@ export const Default = () => {
 export const DotVariant = () => {
   return (
     <Badge show variant='dot'>
-      <FontAwesomeIcon icon={faCommentDots} style={{ fontSize: '24px' }} />;
+      <FontAwesomeIcon icon={faCommentDots} style={{ fontSize: '24px' }} />
     </Badge>
   );
 }

@@ -11,7 +11,7 @@ interface Props {
 }
 
 // TODO: fix bug that is can not change path size
-const Icon: React.SFC<Props> = ({ IconComponent, width = '48', height = '48', color, opacity, ...rest }) => {
+const Icon: React.FC<Props> = ({ IconComponent, width = '48', height = '48', color, opacity, ...rest }) => {
   return (
     <IconContainer color={color} opacity={opacity} {...rest}>
       { IconComponent && <IconComponent width={width} height={height} viewBox={`0 0 ${width} ${height}`} /> }

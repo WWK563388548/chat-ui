@@ -18,7 +18,7 @@ export const StatusIcon = styled.div<{ status: string, statusIconSize: string }>
     ${({ statusIconSize }) => circleMixin('#fff', statusIconSize)}
     transform: scale(2); /* 放大两倍 */
   }
-  
+
   /* 内部小圆圈 */
   &::after {
     content: ''; /* ::before/after中设置content后才能显示 */

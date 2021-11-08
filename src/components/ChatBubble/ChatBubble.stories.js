@@ -8,11 +8,11 @@ export default {
 };
 
 export const FromOthers = () => (
-  <ChatBubble time="yesterday 14：26 PM">This is a message from other people</ChatBubble>
+  <ChatBubble time="yesterday 14:26 PM">This is a message from other people</ChatBubble>
 );
 
 export const Mine = () => (
-  <ChatBubble type="mine" time="yesterday 16：30 PM">
+  <ChatBubble type="mine" time="yesterday 16:30 PM">
     My message
   </ChatBubble>
 );

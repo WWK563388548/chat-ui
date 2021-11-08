@@ -8,7 +8,7 @@ interface Props {
   showZero?: boolean
 }
 
-const Badge: React.SFC<Props> = ({ children, show = false, count = 0, showZero = false }) => {
+const Badge: React.FC<Props> = ({ children, show = false, count = 0, showZero = false }) => {
   // variant 用于表示组件的变体
   return (
     <BadgeWrapper variant={children ? 'dot' : 'default'} show={show} count={count} showZero={showZero} >

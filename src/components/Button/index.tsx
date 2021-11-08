@@ -9,9 +9,9 @@ interface Props {
   bgColor?: string
 }
 
-const Button: React.SFC<Props> = ({ children, buttonType = 'primary', shape = 'circle', size = '30px', bgColor }) => {
+const Button: React.FC<Props> = ({ children, buttonType = 'primary', shape = 'circle', size = '30px', bgColor }) => {
   return (
-    <ButtonContainer 
+    <ButtonContainer
       buttonType={buttonType}
       shape={shape}
       size={size}
